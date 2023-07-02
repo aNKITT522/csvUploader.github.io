@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+          text-align: left;
+          height: auto;
+        }
+        </style>
+</head>
+<body>
+    <div class="container" id="inputFile">
+        <input type="file" id="csvFileInput" name="name" accept=".csv">
+        <button type="submit" id="submitInput">Submit</button>
+    </div>
+    
+    <!-- <input type="text" id="search-input" placeholder="Search"> -->
+    <div id="selectedFile">
+        <ul id="fileList"></ul>
+    </div>
+
+    <div class="container" id="searchFile">
+        <input type="text" id="search-input" placeholder="Search">
+       <button id="search-button">Search</button>
+    </div>
+
+    
+
+    <div id="table-container"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

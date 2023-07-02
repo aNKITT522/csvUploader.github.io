@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    background-color: lightcyan;
+}
+
+#inputFile{
+    margin-top:.7em;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.2rem;
+    border-radius:8px;
+    background:#5f8ba1;
+    color:#fff;
+    text-align: center;
+    overflow: hidden;
+}
+#csvFileInput{
+    width: 90%;
+    color: black;
+    padding: 5px;
+}
+#submitInput{
+    width: 10%;
+    cursor: pointer;
+    padding: 8px;
+    border: 0.5px solid black;
+}
+#searchFile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:36px;
+    min-height:36px;
+    line-height: normal;
+}
+#search-input{
+    width: 85%;
+    border: 0.5px solid black;
+}
+#search-button{
+    width: 15%;
+    border: 0.5px solid black;
+}
+
+/*------------*/
+#fileList{
+    list-style: none;
+    padding: 2px;
+}
+
+#fileList #fileDiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: .2px solid black;
+    justify-content: space-between;
+    
+
+}
+#openButton{
+    width: 15%;
+    padding: 8px;
+    border: 0.2px solid black;
+    border: none;
+    border-left: .2px solid black;
+    
+}
+
+#table-container{
+    margin-top:40px ;
+    border: 1px solid black;
+
+}
